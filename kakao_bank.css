@@ -1,0 +1,72 @@
+
+header {
+    position: fixed;
+    top: 0;
+    width: 1080px;
+    height: 80px;
+    left : 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+.logo > img{
+    width: 130px;
+    height: 25px;
+    margin-top: 30px;
+}
+.list {
+    text-align: right;
+    font-size: 17px;
+    margin-top: -40px;
+}
+.list > span{
+    margin-right: 40px;
+}
+.list > button{
+    width: 120px;
+    height: 50px;
+    background: #fede22;
+    border: 1px solid #fede22;
+    border-radius: 22px;
+    font-size: 15px;
+}
+section{
+    margin-top: 80px;
+    margin-left: -8px;
+    width: 105%;
+    height: 640px;
+    background-color: #fede22;
+}
+h1{
+    font-size: 55px;
+    line-height: 1.35;
+    padding-left: 390px;
+    padding-top: 150px;
+}
+h3{
+    padding-left: 390px;
+    margin-top: -40px;
+    font-weight: 500;
+}
+h4{
+    padding-left: 390px;
+    margin-top: -10px;
+    font-size: 1.17em;
+    font-weight: 500;
+}
+section button{
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid rgba(255,255,255,.3);;    
+}
+.download-button{
+    margin-left: 390px;
+    margin-top: 70px;
+}
+.bankaccount img{
+    width: 350px;
+    margin-left: 1000px;
+    margin-top: -450px;
+}
