@@ -48,7 +48,7 @@ section{
     margin-top: 80px;
     margin-left: -8px;
     width: 105%;
-    height: 650px;
+    height: 730px;
     background-color: #fede22;
     float: left;
 }
@@ -56,7 +56,7 @@ h1{
     font-size: 55px;
     line-height: 1.35;
     padding-left: 390px;
-    padding-top: 150px;
+    padding-top: 200px;
     font-weight: 600;
 }
 h3{
@@ -85,5 +85,5 @@ section button{
 .bankaccount img{
     width: 350px;
     margin-left: 1050px;
-    margin-top: -480px;
+    margin-top: -450px;
 }
