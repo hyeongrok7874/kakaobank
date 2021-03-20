@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    
 }
 header {
     position: fixed;
@@ -76,15 +77,176 @@ section button{
     height: 60px;
     font-size: 20px;
     background-color: white;
-    border: 1px solid rgba(255,255,255,.3);;    
+    border: 1px solid rgba(255,255,255,.3); 
     border-radius: 12px;
 }
 .download-button{
     margin-left: 390px;
     margin-top: 70px;
 }
-.bankaccount img{
-    width: 350px;
+.bankaccount{
+    width: 330px;
+    height: 700px;
+    background-color: white;
     margin-left: 1050px;
     margin-top: -450px;
+    border-radius: 40px;
+    padding: 70px 10px 0 10px;
+}
+.bankaccount ul{
+    display: flex;
+    list-style: none;
+    width: 250px;
+}
+.bankaccount li{
+    margin-left: 15px;
+}
+.bankaccount .puppy{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bankaccount .my-account{
+    padding-top: 6px;
+    font-size: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.bankaccount > img{
+    width: 40px;
+    height: 40px;
+    margin-left: 280px;
+    margin-top: -200px;
+}
+.bankaccount .account {
+    width: 320px;
+    height: 180px;
+    background-color: #fede22;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.bankaccount .account > p {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.bankaccount .account > span {
+    font-size: 5px;
+    padding-left: 20px;
+    font-weight: lighter;
+    color: gray;
+}
+.bankaccount .account > h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+.bankaccount .account > ul {
+    width: 320px;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 14px;   
+    font-weight: 350;
+}
+.bankaccount .account > ul .li{
+    padding-left: px;
+    padding-right: 30px;
+    text-align: center;
+}
+.bankaccount .account > ul .send{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+.bankaccount .safebox {
+    width: 320px;
+    height: 50px;
+    background-color: #fede22;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.bankaccount .safebox .safe {
+    padding-top: 18px;
+    padding-left: 10px;
+    width: 100%;
+}
+.bankaccount .safebox .safe li{
+    font-size: 13px;
+}
+.bankaccount .safebox .safe .money {
+    font-size: 15px;
+    padding-left: 110px;
+    font-weight: 700;
+}
+.bankaccount .regular {
+    width: 320px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(72, 134, 155);
+    border-radius: 10px;
+}
+.bankaccount .regular > p{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+.bankaccount .regular > span{
+    font-size: 5px;
+    padding-left: 20px;
+    font-weight: lighter;
+    color: rgb(217, 228, 238);
+}
+.bankaccount .regular > h3 {
+    width: 150px;
+    margin-left: -200px;
+    color: white;
+    font-weight: 700;
+}
+.bankaccount .savings{
+    width: 320px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(39, 138, 128);
+    border-radius: 10px;
+}
+.bankaccount .savings > ul{
+    color: white;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+.bankaccount .savings .eight{
+    padding-top: 6px;
+    font-size: 1px;
+    background-color: rgb(28, 102, 95);
+    border-radius: 10px;
+    width: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-left: -2px;
+}
+.bankaccount .savings > p{
+    font-size: 5px;
+    padding-left: 20px;
+    font-weight: lighter;
+    color: rgb(217, 228, 238);
+    padding-bottom: 20px;
+}
+.bankaccount .savings > span {
+    color: white;
+    font-weight: 700;
+    padding-left: 210px;
+    font-size: 20px;
+}
+.bankaccount .tool > img {
+    width: 300px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
