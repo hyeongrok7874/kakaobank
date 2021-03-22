@@ -38,10 +38,21 @@ header {
     margin: 20px 0 0 120px;
 
 }
-.list > span{
-    margin-right: 40px;
-}
 .list > button{
+    margin-right:35px;
+    border: 0px;
+    background-color: white;
+    font-size: 17px;
+}
+.list > button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.list .push:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.list .push{
     width: 120px;
     height: 45px;
     background: #fede22;
