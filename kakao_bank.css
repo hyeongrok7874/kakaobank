@@ -4,6 +4,9 @@
     outline: 0;
     
 }
+body{
+    background-color: rgb(245, 245, 245);
+}
 header {
     position: fixed;
     top: 0;
@@ -23,8 +26,8 @@ header {
     float: left;
 }
 .logo > img{
-    width: 130px;
-    height: 25px;
+    width: 120px;
+    height: 23px;
     margin-top: 30px;
     display: inline-block;
 }
@@ -86,7 +89,7 @@ section button{
 }
 .bankaccount{
     width: 330px;
-    height: 700px;
+    height: 640px;
     background-color: white;
     margin-left: 1050px;
     margin-top: -450px;
@@ -248,5 +251,5 @@ section button{
     width: 300px;
     height: 40px;
     margin-left: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
