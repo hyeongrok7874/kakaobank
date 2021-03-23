@@ -35,8 +35,8 @@ header {
     text-align: right;
     font-size: 17px;
     float: right;
-    margin: 20px 0 0 120px;
-
+    margin: 20px -50px 0 120px;
+    
 }
 .list > button{
     margin-right:35px;
@@ -97,6 +97,10 @@ section button{
 .download-button{
     margin-left: 390px;
     margin-top: 70px;
+}
+.download-button > button:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .bankaccount{
     width: 330px;
