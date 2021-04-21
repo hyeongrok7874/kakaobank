@@ -71,17 +71,17 @@ section{
 h1{
     font-size: 55px;
     line-height: 1.35;
-    padding-left: 390px;
+    padding-left: 500px;
     padding-top: 200px;
     font-weight: 600;
 }
 h3{
-    padding-left: 390px;
+    padding-left: 500px;
     margin-top: 20px;
     font-weight: 500;
 }
 h4{
-    padding-left: 390px;
+    padding-left: 500px;
     margin-top: 10px;
     font-size: 1.17em;
     font-weight: 500;
@@ -95,7 +95,7 @@ section button{
     border-radius: 12px;
 }
 .download-button{
-    margin-left: 390px;
+    margin-left: 500px;
     margin-top: 70px;
 }
 .download-button > button:hover{
@@ -106,7 +106,7 @@ section button{
     width: 330px;
     height: 640px;
     background-color: white;
-    margin-left: 1050px;
+    margin-left: 1250px;
     margin-top: -450px;
     border-radius: 40px;
     padding: 70px 10px 0 10px;
@@ -220,7 +220,7 @@ section button{
 }
 .bankaccount .regular > h3 {
     width: 150px;
-    margin-left: -200px;
+    margin-left: -310px;
     color: white;
     font-weight: 700;
 }
